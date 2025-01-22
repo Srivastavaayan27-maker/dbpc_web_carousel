@@ -34,7 +34,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
@@ -45,20 +44,23 @@
     text-align: center;
 }
 
-.prev, .next {
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 12px;
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
+    background: none;
+    border: none;
 }
 
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+.prev:hover,
+.next:hover {
+    background: none;
 }
 
 .prev {
