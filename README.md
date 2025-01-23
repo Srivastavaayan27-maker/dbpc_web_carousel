@@ -17,6 +17,8 @@ js/script.js
 scss/styles.scss
 index.html
 readme.md
+code_of_conduct.md
+contributing.md
 ```
 
 ---
